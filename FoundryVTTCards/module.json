@@ -1,31 +1,32 @@
 {
-    "name": "FoundryVTTCards",
-    "title": "FoundryVTT Cards",
-    "description": "Additional card decks for FoundryVTT.",
-    "author": "Jay Colson",
-    "authors": [
-        {
-            "name": "Jay Colson",
-            "email": "jay+foundry@karma.net",
-            "url": "https://github.com/jcolson",
-            "discord": "blackntan#0069"
-        }
-    ],
-    "version": "1.3.0",
-    "minimumCoreVersion": "9.238",
-    "compatibleCoreVersion": "9",
-    "packs": [
-        {
-            "name": "FoundryVTTCards",
-            "label": "FoundryVTTCards",
-            "path": "packs/FoundryVTTCards.db",
-            "type": "Cards"
-        }
-    ],
-    "manifest": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/module.json",
-    "url": "https://github.com/jcolson/foundryvtt_cards",
-    "download": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/FoundryVTTCards.zip",
-    "readme": "https://github.com/jcolson/foundryvtt_cards/blob/master/README.md",
-    "bugs": "https://github.com/jcolson/foundryvtt_cards/issues",
-    "changelog": "https://github.com/jcolson/foundryvtt_cards/releases"
+  "id": "foundryvtt-cards",
+  "title": "FoundryVTT Cards",
+  "description": "Additional card decks for FoundryVTT.",
+  "version": "1.3.0",
+  "authors": [
+    {
+      "name": "Jay Colson",
+      "email": "jay+foundry@karma.net",
+      "url": "https://github.com/jcolson",
+      "discord": "blackntan#0069"
+    }
+  ],
+  "compatibility": {
+    "minimum": "9",
+    "verified": "9"
+  },
+  "packs": [
+    {
+      "name": "foundryvtt-cards",
+      "label": "FoundryVTT Cards",
+      "path": "packs/FoundryVTTCards.db",
+      "type": "Cards"
+    }
+  ],
+  "manifest": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/module.json",
+  "url": "https://github.com/jcolson/foundryvtt_cards",
+  "download": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/FoundryVTTCards.zip",
+  "readme": "https://github.com/jcolson/foundryvtt_cards/blob/master/README.md",
+  "bugs": "https://github.com/jcolson/foundryvtt_cards/issues",
+  "changelog": "https://github.com/jcolson/foundryvtt_cards/releases"
 }
